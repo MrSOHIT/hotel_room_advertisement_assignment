@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f7f7f7;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.room {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.room h3 {
+    color: #333;
+}
+
+.room p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.room a {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Room-specific Styles */
+.standard-twin {
+    border-color: #66aaff;
+}
+
+.executive-twin {
+    border-color: #ffcc00;
+}
+
+.superior-suite {
+    border-color: #ff9933;
+}
+
+.deluxe-suite {
+    border-color: #cc66ff;
+}
+
+.executive-suite {
+    border-color: #33cc33;
+}
+
+.presidential-suite {
+    border-color: #ff3333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
